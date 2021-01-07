@@ -1,0 +1,129 @@
+*{ 
+  margin:0;
+  padding:0;
+  font-family:helvetica, sans-serif;
+  box-sizing:border-box;
+}
+
+body{
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+.container-poke{ 
+
+  display: flex; 
+  justify-content:space-between;
+  flex-wrap: wrap; 
+  margin-left: 50px;
+  margin-right: 50px;
+  transform: translateY(50px);
+}
+h1{
+  font-size: 25px;
+}
+.header{ 
+  display: flex;
+}
+.search-pokemon{ 
+  margin: 50px 0px 0px 300px;
+}
+.btn{
+  height: 39px;
+  width: 100px;
+  margin-left: -82px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  margin-top:13px;
+}
+.poke-img{ 
+  width: 100px;
+  height:100px;
+}
+.poke-head{
+  padding-top: 50px;
+  text-align: center;
+}
+.poke-body{
+  text-align: center;
+}
+.btn-info{
+  cursor: pointer;
+  display: inline-block;
+  transform:translate(65px, -13px);
+  background-color:#32C7E6;
+   text-decoration: none; 
+  padding: 5px 10px;
+  border: none; 
+  border-radius:4px;
+  color:#fff;
+   transition: background-color 0.2s ease-in-out;
+}
+.btn-info:hover{ 
+  text-decoration: none;
+  background-color:#1DA4C0 ;
+}
+.poke-card{ 
+  margin-bottom: 70px;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+ border-radius: 4px; 
+ transform: scale(1);
+ box-shadow: 1px 4px 10px 4px rgba(0,0,0,0.2);
+ transition: all 0.2s ease-in-out;
+}
+.poke-card:hover{
+  transform: scale(1.2);
+}
+
+
+.home{
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 15px 40px;
+  transform: scale(0.8);
+  transition: all 0.2s ease-in-out;
+}
+.home:hover{
+  transform: scale(1);
+}
+
+.card-detail-poke{
+
+  background-color: #fff;
+  height: 1500x;
+}
+
+.poke-img-detail{
+ display: inline-block;
+transform: translate(70px, -50px);
+  width: 400px;
+  height: 400px;
+}
+.poke-detail-text {
+  margin-top: -40px;
+  letter-spacing: 2px;
+  text-align: center; 
+   font-weight: bold;
+  font-size: 25px;
+}
+.poke-detail-text p::first-letter{
+  text-transform: uppercase;
+}
+.label-progress{
+  font-weight: bold;
+  white-space: nowrap;
+}
+.descriptions{ 
+  text-align: center;
+}
+.descriptions h1{ 
+  text-decoration: underline;
+  font-weight: bold;
+}
+.text-description{
+  transform: translateX(150px);
+  margin-bottom:-15px;
+ width:800px;
+}

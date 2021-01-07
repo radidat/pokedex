@@ -1,0 +1,20 @@
+application pokédex: 
+
+ instruction: 
+->commencer par récupérer tous les pokémons
+->on récupére les données qui nous intéressent à savoir: 
+- id du pokémon 
+-nom du poékemon
+- statistique du pokémon 
+->recherher un pokémon dans le pokédex:(optionnel)
+-on créer une input et un boutton afin de rechercher un pokédex
+
+structure du site: 
+première page: 
+->on crée une carte pour chaque poékemon
+- on aura une image du poékemon 
+-son id
+-un boutton qui nous dirigera vers une nouvelle page
+- la nouvelle page détaillera les stats du pokémon 
+deuxième page: 
+-> détaille les informations de chaque pokémon
